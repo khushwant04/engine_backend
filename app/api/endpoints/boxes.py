@@ -19,12 +19,9 @@ Imports:
 
 
 from fastapi import APIRouter, UploadFile, File, HTTPException
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse
 from app.services.bounding_boxes import process_images, generate_excel
 from typing import List
-import os
-import shutil
-from app.services.real_esrgan import enhance_images
 
 
 # Define the API router

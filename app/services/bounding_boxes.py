@@ -6,7 +6,6 @@ from transformers import AutoProcessor, AutoModelForCausalLM
 from fastapi import UploadFile
 from io import BytesIO
 from typing import List
-from zipfile import ZipFile, BadZipFile
 
 
 # Device and dtype setup

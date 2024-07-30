@@ -48,7 +48,7 @@ async def enhance_images_endpoint(files: List[UploadFile] = File(...)):
 
     return JSONResponse(content={"message": "Images enhanced successfully", "output_files": output_files})
 
-@router.get("/downloadimage/{filename}")
+@router.get("/download_image/{filename}")
 async def download_image(filename: str):
     """
     Endpoint for downloading an enhanced image.
