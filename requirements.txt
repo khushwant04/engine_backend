@@ -1,9 +1,17 @@
 fastapi
 pandas
-torch
+torch --index-url https://download.pytorch.org/whl/cu124
+torchvision --index-url https://download.pytorch.org/whl/cu124
+torchaudio --index-url https://download.pytorch.org/whl/cu124
 transformers
+timm
+einops
+flash_attn
 Pillow
 uvicorn
-# Set up the environment
+matplotlib
+openpyxl
+jupyter
+ipywidgets
 git+https://github.com/xinntao/Real-ESRGAN.git
 git+https://github.com/XPixelGroup/BasicSR.git
