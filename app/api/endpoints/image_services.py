@@ -2,7 +2,6 @@ from fastapi import APIRouter, UploadFile, File, HTTPException
 from fastapi.responses import JSONResponse, FileResponse
 from app.services.image_services import resize_images, normalize_image
 from typing import List
-import cv2 
 import os 
 
 
