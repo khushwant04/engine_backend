@@ -30,6 +30,7 @@ router = APIRouter()
 
 
 
+
 @router.post("/generate")
 async def generate_boxes(files: List[UploadFile] = File(...)):
     """
