@@ -6,7 +6,7 @@ from fastapi import UploadFile
 from uuid import uuid4
 
 # Directory to save processed images
-PROCESSED_IMAGES_DIR = "/tmp/processed_images"
+PROCESSED_IMAGES_DIR = "outputs/processed_images"
 
 if not os.path.exists(PROCESSED_IMAGES_DIR):
     os.makedirs(PROCESSED_IMAGES_DIR)
